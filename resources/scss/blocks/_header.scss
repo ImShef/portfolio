@@ -1,0 +1,103 @@
+.header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 1920px;
+    line-height: 150%;
+    font-weight: 600;
+    font-size: 16px;
+
+    &__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+        width: 100%;
+        height: 112px;
+        padding: 24px 320px;
+        box-sizing: border-box;
+        background-color: rgba(255, 255, 255, 1);
+    }
+
+    &__logo {
+        width: 64px;
+        height: 64px;
+    }
+
+    &__menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 40px;
+        width: 1184px;
+        height: 46px;
+        box-sizing: border-box;
+    }
+
+    &__menu-item {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 4px;
+        height: fit-content;
+        box-sizing: border-box;
+        transition: color 0.3s ease;
+        &:hover {
+            color: #0044ff;
+        }
+        &:active {
+            color: #0036cc;
+        }
+    }
+
+    &__menu-text {
+        color: rgba(34, 34, 34, 1);
+        height: 24px;
+        &-services {
+            width: 55px;
+        }
+        &-portfolio {
+            width: 94px;
+        }
+        &-contacts {
+            width: 81px;
+        }
+    }
+
+    &__phone-button {
+        height: 48px;
+        width: 209px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
+        height: 100%;
+        padding: 10px 22px;
+        border: 1px solid rgba(34, 34, 34, 1);
+        border-radius: 32px;
+        box-sizing: border-box;
+        transition: color 0.3s ease;
+        color: rgba(34, 34, 34, 1);
+        &:hover {
+            color: #0044ff;
+            border-color: #0044ff;
+        }
+        &:active {
+            color: #0036cc;
+            border-color: #0036cc;
+        }
+    }
+
+    &__phone-icon {
+        width: 24px;
+        height: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

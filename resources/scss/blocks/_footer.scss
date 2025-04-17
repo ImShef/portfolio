@@ -1,0 +1,192 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    box-sizing: border-box;
+
+    &__contacts {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-end;
+        gap: 56px;
+        width: 100%;
+        height: 592px;
+        padding: 240px 320px 238px;
+        border-bottom-width: 1px;
+        border-color: rgba(46, 46, 46, 1);
+        border-style: solid;
+        box-sizing: border-box;
+        background-color: rgba(20, 20, 20, 1);
+    }
+
+    &__contacts-group {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 16px;
+        width: 427.5px;
+        height: 112px;
+        box-sizing: border-box;
+    }
+
+    &__contacts-supheading {
+        color: rgba(255, 255, 255, 1);
+        font-size: 16px;
+        line-height: 150%;
+        font-family: Geologica, sans-serif;
+        font-weight: 100;
+        letter-spacing: 1.28px;
+        text-transform: uppercase;
+    }
+
+    &__contacts-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 8px;
+        width: fit-content;
+        box-sizing: border-box;
+    }
+
+    &__contacts-phone {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    &__contacts-phone-text {
+        color: rgba(255, 255, 255, 1);
+        font-size: 32px;
+        line-height: 125%;
+        font-family: Geologica, sans-serif;
+        font-weight: 600;
+        transition: color 0.3s ease;
+        &:hover {
+            color: #0044ff;
+        }
+        &:active {
+            color: #0036cc;
+        }
+    }
+
+    &__contacts-social {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 24px;
+        width: fit-content;
+        box-sizing: border-box;
+    }
+
+    &__contacts-social-button {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 4px;
+        height: 100%;
+        box-sizing: border-box;
+        color: white;
+        text-decoration: none;
+    }
+
+    &__contacts-social-icon {
+        white-space: nowrap;
+        transform: rotate(10deg);
+    }
+
+    &__contacts-social-text {
+        color: rgba(255, 255, 255, 1);
+        font-size: 16px;
+        line-height: 150%;
+        font-family: Geologica, sans-serif;
+        font-weight: 600;
+        transition: color 0.3s ease;
+        &:hover {
+            color: #0044ff;
+        }
+        &:active {
+            color: #0036cc;
+        }
+    }
+
+    &__mail-and-time {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 24px;
+        height: 112px;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+
+    &__mail {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 4px;
+        width: fit-content;
+        box-sizing: border-box;
+        padding: 56px 0px 0px 0px;
+    }
+
+    &__mail-text {
+        color: rgba(255, 255, 255, 1);
+        font-size: 16px;
+        line-height: 150%;
+        font-weight: 600;
+        position: absolute;
+        transition: color 0.3s ease;
+        &:hover {
+            color: #0044ff;
+        }
+        &:active {
+            color: #0036cc;
+        }
+    }
+
+    &__time-text {
+        color: rgba(255, 255, 255, 1);
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 300;
+        position: relative;
+        height: 24px;
+        width: 313px;
+        white-space: nowrap;
+    }
+
+    &__copyright {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 32px;
+        width: 100%;
+        height: 80px;
+        padding: 24px 320px;
+        box-sizing: border-box;
+        background-color: rgba(20, 20, 20, 1);
+    }
+
+    &__copyright-text {
+        color: rgba(255, 255, 255, 1);
+        font-size: 12px;
+        line-height: 133%;
+        font-weight: 300;
+    }
+}

@@ -1,0 +1,19 @@
+@use "reset";
+
+@use "blocks/header";
+@use "blocks/cover";
+@use "blocks/footer";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    cursor: default;
+}
+
+body {
+    font-family: "Geologica", sans-serif;
+}

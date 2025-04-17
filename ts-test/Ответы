@@ -1,0 +1,15 @@
+				8 пункт
+# Транспайлер (транспилятор) — инструмент, преобразующий код из одного языка в другой (например, TypeScript → JavaScript), сохраняя логику, но изменяя синтаксис.
+
+# Статическая типизация — проверка типов данных на этапе компиляции (TypeScript).
+
+# Динамическая типизация — типы проверяются во время выполнения (JavaScript).
+				9 пункт
+* index.ts - использует TypeScript(type, явные типы number). 
+* index.js - после транспиляции типы удалены, остается чистый JS.
+				Например:
+// TypeScript (index.ts)
+function mathOp(x: number, y: number, op: Operation): number { ... }
+
+// JavaScript (index.js)
+function mathOp(x, y, op) { ... }
